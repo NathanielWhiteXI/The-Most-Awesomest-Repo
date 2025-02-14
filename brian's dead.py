@@ -10,4 +10,11 @@ UUAUUUAUAAUAUAUAUAAAAAAGGGGHHHHH! SHOOOOOOOOOOOTTTT!!!
 AAAAAAGHHH- AGHHHHHHH- *goes silent* DAAAAAH!
 """
 
+def recursive(n):
+    if (n == 0):
+        return
+    print(n)
+    recursive(n - 1)
+
 print(brians_Dead())
+recursive(10)
